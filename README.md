@@ -21,7 +21,6 @@ __`COMPLETE`__ :fire:
 ## Required Dependencies :
 * `Express` [:link:](https://www.npmjs.com/package/express)
 * `hbs` [:link:](https://www.npmjs.com/package/hbs)
-* `live-server` [:link:](https://www.npmjs.com/package/live-server)
 * `request` [:link:](https://www.npmjs.com/package/request)
 
 ## SASS Compiler :
