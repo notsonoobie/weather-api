@@ -2,7 +2,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
-    width: 70vw;
+    width: 90vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,9 @@ input{
 }
 button{
     text-transform: uppercase;
+    display: block;
     padding: 5px;
     color: #696969;
     outline: none;
+    margin-top: 7px;
 }
