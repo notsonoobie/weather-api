@@ -1,13 +1,11 @@
 const path = require('path');       // CROSS PLATFORM PATH RESOLVING CORE MODULE
 const express = require('express'); // WEB FRAMEWORK
 const app = express();
-
-const port = process.env.PORT || 3000;
-
 const hbs = require('hbs'); // HANDLEBAR TEMPLATE ENGINE
 
 const geocode = require('./utils/geocode');      // CUSTOM HANDLER
 const weatherStats = require('./utils/weather'); // CUSTOM HANDLER
+const port = process.env.PORT || 3000;
 
 const absURL = path.join(__dirname,'../public');
 const viewsPath = path.join(__dirname,'../templates/views');
