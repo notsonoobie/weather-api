@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="icon" href="/img/logo.png" type="image/x-icon">
+    <title>Weather API</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    {{>headers}}                       <!-- Loading the headers partials page (header component) using hbs template engine -->
+
+    <form method="GET" action="/">
+        <input type="text" required>
+        <button type="submit" name="search" value="search">Search</button>
+    </form>
+    <div>
+        <p id="loc"></p>
+        <p id="details"></p>
+        <p id="website"></p>
+    </div>
+
+    {{>footer}}                        <!-- Loading footer component -->
+    <script src="custom/index.js"></script>
+</body>
+</html>
