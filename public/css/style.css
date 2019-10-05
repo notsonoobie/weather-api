@@ -14,13 +14,16 @@ a,a:link,a:visited{
     color: #999999;
     text-transform: uppercase;
 }
-ul > li{
+ul li{
     list-style: none;
     display: inline-block;
     margin-left: -2rem;
     margin-right: 2.5rem;
 }
-header h1{
+.link{
+    font-weight: bold;
+}
+header h1,h1{
     background-image: linear-gradient(to right, #30CFD0,#330867);
     -webkit-background-clip: text;
     background-clip: text;
@@ -53,4 +56,7 @@ button{
     color: #696969;
     outline: none;
     margin-top: 7px;
+}
+p{
+    color: #999999;
 }
