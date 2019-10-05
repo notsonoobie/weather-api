@@ -1,6 +1,9 @@
 const path = require('path');       // CROSS PLATFORM PATH RESOLVING CORE MODULE
 const express = require('express'); // WEB FRAMEWORK
 const app = express();
+
+const port = process.env.PORT || 3000;
+
 const hbs = require('hbs'); // HANDLEBAR TEMPLATE ENGINE
 
 const geocode = require('./utils/geocode');      // CUSTOM HANDLER
@@ -92,6 +95,6 @@ app.get('*',(req,res)=>{  // Wildcard represents all page except listed above
     });
 });
 
-app.listen(3000,()=>{
-    console.log('server is running on port 3000');
+app.listen(port,()=>{
+    console.log(`server is running on port ${port}`);
 });
