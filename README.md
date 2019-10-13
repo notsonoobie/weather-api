@@ -49,13 +49,13 @@ You can use the code under MIT License but mention of Author ( Rahul Gupta [@not
    
 ## *Contact Me*
 
-:phone:   +91-89288-85199
+:phone: +91-89288-85199
 
-:e-mail:  swastikmedical74@gmail.com
+:e-mail: swastikmedical74@gmail.com
 
-:globe_with_meridians:  https://showcasingmyself.netlify.com
+:globe_with_meridians: https://showcasingmyself.netlify.com
 
-:octocat:  [notsonoobie](https://github.com/notsonoobie)
+:octocat: [notsonoobie](https://github.com/notsonoobie)
 
 ***
 
